@@ -1,0 +1,6 @@
+{
+  "experiment": "minimal automatic P04 architecture",
+  "seeds": [104, 208, 312, 416],
+  "selection": "Four predeclared seeds. No filtering or replacement based on results.",
+  "candidate_specific_overrides": false
+}

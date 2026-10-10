@@ -1,0 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.7.1+cu126
+numpy==2.5.3
+pillow==12.3.0
+ortools==9.15.6755
+networkx==3.6.1
+scipy==1.18.1

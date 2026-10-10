@@ -1,0 +1,17 @@
+{
+  "version": "map-design-spec-v1",
+  "gameplay": {
+    "sites": 2,
+    "mid": "contested",
+    "mid_organization": "contested_street",
+    "mid_access_mode": "separate_entries",
+    "main_approaches": "independent",
+    "secondary_access": "local_and_mid",
+    "defender_rotation": "rear",
+    "site_commitment": "staged"
+  },
+  "architecture": {"site_setting": "mixed", "site_separation": "separated"},
+  "hard_constraints": {"max_extent_HU": 5120, "minimum_door_width_HU": 128, "maximum_main_route_HU": 4096},
+  "soft_preferences": {"compactness": 0.8, "sightline_breaks": 0.85, "asymmetry": 0.8, "route_complexity": 0.7},
+  "seed": 2026100917
+}

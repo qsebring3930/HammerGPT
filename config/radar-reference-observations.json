@@ -1,0 +1,2443 @@
+{
+  "version": "radar-observations-v1",
+  "source_count": 18,
+  "independent_appearance_count": 17,
+  "measurements": "Image-space ratios only; no reliable scale metadata supplied.",
+  "observations": [
+    {
+      "id": "R01",
+      "source": "Map Radars/cs_office_unlimited_radar.png",
+      "sha256": "46bcae2f854682bdbcf12514367117f6aeddd098b12fc18b9584dad78682ae38",
+      "image_dimensions": [
+        2048,
+        2048
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "interwoven interior ring",
+      "observation": "Orthogonal rooms surround multiple building voids; colored layers may overlap.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R01-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.37,
+              0.27
+            ],
+            [
+              0.49,
+              0.27
+            ],
+            [
+              0.49,
+              0.39
+            ],
+            [
+              0.37,
+              0.39
+            ]
+          ],
+          "pixel_bounds": [
+            757.8,
+            553.0,
+            1003.5,
+            798.7
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R01-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.31,
+              0.17
+            ],
+            [
+              0.58,
+              0.17
+            ],
+            [
+              0.58,
+              0.21
+            ],
+            [
+              0.31,
+              0.21
+            ]
+          ],
+          "pixel_bounds": [
+            634.9,
+            348.2,
+            1187.8,
+            430.1
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R01-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.5,
+              0.23
+            ],
+            [
+              0.62,
+              0.23
+            ],
+            [
+              0.62,
+              0.43
+            ],
+            [
+              0.5,
+              0.43
+            ]
+          ],
+          "pixel_bounds": [
+            1024.0,
+            471.0,
+            1269.8,
+            880.6
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.0,
+        "passage_to_chamber_short_width": 0.33
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R01-annotations.png",
+      "approximate_regions": {
+        "foreground": "R01-foreground-estimate.png",
+        "enclosed_voids": "R01-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "approach_transition": "See observed width change in P/W samples; exact connections not established.",
+      "site_subdivision": "Visible local compartments retained as spatial evidence only; site identity unverified.",
+      "entrance_hints": [],
+      "entrance_confidence": "not sampled"
+    },
+    {
+      "id": "R02",
+      "source": "Map Radars/de_karnak_radar - Copy.png",
+      "sha256": "9da04f4552ade88de7867fdc98b153f11f9ac06820ea4b46b8ef74399d8f0715",
+      "image_dimensions": [
+        4096,
+        4096
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "offset court sequence",
+      "observation": "Broad courts narrow between offset attached masses; two green outlines do not prove bombsites.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R02-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.37,
+              0.31
+            ],
+            [
+              0.52,
+              0.31
+            ],
+            [
+              0.52,
+              0.44
+            ],
+            [
+              0.37,
+              0.44
+            ]
+          ],
+          "pixel_bounds": [
+            1515.5,
+            1269.8,
+            2129.9,
+            1802.2
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R02-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.5,
+              0.32
+            ],
+            [
+              0.56,
+              0.32
+            ],
+            [
+              0.56,
+              0.46
+            ],
+            [
+              0.5,
+              0.46
+            ]
+          ],
+          "pixel_bounds": [
+            2048.0,
+            1310.7,
+            2293.8,
+            1884.2
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R02-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.37,
+              0.55
+            ],
+            [
+              0.58,
+              0.55
+            ],
+            [
+              0.58,
+              0.6
+            ],
+            [
+              0.37,
+              0.6
+            ]
+          ],
+          "pixel_bounds": [
+            1515.5,
+            2252.8,
+            2375.7,
+            2457.6
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.15,
+        "passage_to_chamber_short_width": 0.46
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R02-annotations.png",
+      "approximate_regions": {
+        "foreground": "R02-foreground-estimate.png",
+        "enclosed_voids": "R02-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "approach_transition": "See observed width change in P/W samples; exact connections not established.",
+      "site_subdivision": "Visible local compartments retained as spatial evidence only; site identity unverified.",
+      "entrance_hints": [],
+      "entrance_confidence": "not sampled"
+    },
+    {
+      "id": "R03",
+      "source": "Map Radars/Screenshot_10.png",
+      "sha256": "a76745701263faba051c02d23f6f17aed73610acd619494a68a18a5259a32ac2",
+      "image_dimensions": [
+        707,
+        649
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "L shaped open field",
+      "observation": "Very broad shared open strip; proportions unlike ordinary corridor-led layouts.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R03-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.45,
+              0.57
+            ],
+            [
+              0.68,
+              0.57
+            ],
+            [
+              0.68,
+              0.8
+            ],
+            [
+              0.45,
+              0.8
+            ]
+          ],
+          "pixel_bounds": [
+            318.2,
+            369.9,
+            480.8,
+            519.2
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R03-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.25,
+              0.2
+            ],
+            [
+              0.33,
+              0.2
+            ],
+            [
+              0.33,
+              0.7
+            ],
+            [
+              0.25,
+              0.7
+            ]
+          ],
+          "pixel_bounds": [
+            176.8,
+            129.8,
+            233.3,
+            454.3
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R03-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.53,
+              0.56
+            ],
+            [
+              0.67,
+              0.56
+            ],
+            [
+              0.67,
+              0.66
+            ],
+            [
+              0.53,
+              0.66
+            ]
+          ],
+          "pixel_bounds": [
+            374.7,
+            363.4,
+            473.7,
+            428.3
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.09,
+        "passage_to_chamber_short_width": 0.38
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R03-annotations.png",
+      "approximate_regions": {
+        "foreground": "R03-foreground-estimate.png",
+        "enclosed_voids": "R03-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "approach_transition": "See observed width change in P/W samples; exact connections not established.",
+      "site_subdivision": "Visible local compartments retained as spatial evidence only; site identity unverified.",
+      "entrance_hints": [],
+      "entrance_confidence": "not sampled"
+    },
+    {
+      "id": "R04",
+      "source": "Map Radars/Screenshot_108.png",
+      "sha256": "2ac9323187628f138f4b88f986b87a0a4fadaa8cdf4c9d32bcc98bf9a85fcdf1",
+      "image_dimensions": [
+        733,
+        709
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "stacked compact complexes",
+      "observation": "Narrow waist separates upper and lower clusters; apparent floor colors uncertain.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R04-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.68,
+              0.1
+            ],
+            [
+              0.81,
+              0.1
+            ],
+            [
+              0.81,
+              0.18
+            ],
+            [
+              0.68,
+              0.18
+            ]
+          ],
+          "pixel_bounds": [
+            498.4,
+            70.9,
+            593.7,
+            127.6
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R04-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.63,
+              0.18
+            ],
+            [
+              0.68,
+              0.18
+            ],
+            [
+              0.68,
+              0.29
+            ],
+            [
+              0.63,
+              0.29
+            ]
+          ],
+          "pixel_bounds": [
+            461.8,
+            127.6,
+            498.4,
+            205.6
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R04-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.57,
+              0.29
+            ],
+            [
+              0.63,
+              0.29
+            ],
+            [
+              0.63,
+              0.37
+            ],
+            [
+              0.57,
+              0.37
+            ]
+          ],
+          "pixel_bounds": [
+            417.8,
+            205.6,
+            461.8,
+            262.3
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.68,
+        "passage_to_chamber_short_width": 0.65
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R04-annotations.png",
+      "approximate_regions": {
+        "foreground": "R04-foreground-estimate.png",
+        "enclosed_voids": "R04-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "approach_transition": "See observed width change in P/W samples; exact connections not established.",
+      "site_subdivision": "Visible local compartments retained as spatial evidence only; site identity unverified.",
+      "entrance_hints": [],
+      "entrance_confidence": "not sampled"
+    },
+    {
+      "id": "R05",
+      "source": "Map Radars/Screenshot_154.png",
+      "sha256": "8df6981b94b819778d3065a8256a989675d7dc41d9f5e4c08db67d0f0d19b381",
+      "image_dimensions": [
+        768,
+        763
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "angled enclosing courts",
+      "observation": "Large oblique boundaries enclose central offset masses; broad irregular combat spaces.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R05-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.17,
+              0.34
+            ],
+            [
+              0.36,
+              0.34
+            ],
+            [
+              0.36,
+              0.46
+            ],
+            [
+              0.17,
+              0.46
+            ]
+          ],
+          "pixel_bounds": [
+            130.6,
+            259.4,
+            276.5,
+            351.0
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R05-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.36,
+              0.32
+            ],
+            [
+              0.43,
+              0.32
+            ],
+            [
+              0.43,
+              0.55
+            ],
+            [
+              0.36,
+              0.55
+            ]
+          ],
+          "pixel_bounds": [
+            276.5,
+            244.2,
+            330.2,
+            419.7
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R05-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.57,
+              0.36
+            ],
+            [
+              0.69,
+              0.36
+            ],
+            [
+              0.69,
+              0.53
+            ],
+            [
+              0.57,
+              0.53
+            ]
+          ],
+          "pixel_bounds": [
+            437.8,
+            274.7,
+            529.9,
+            404.4
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.59,
+        "passage_to_chamber_short_width": 0.59
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R05-annotations.png",
+      "approximate_regions": {
+        "foreground": "R05-foreground-estimate.png",
+        "enclosed_voids": "R05-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "approach_transition": "See observed width change in P/W samples; exact connections not established.",
+      "site_subdivision": "Visible local compartments retained as spatial evidence only; site identity unverified.",
+      "entrance_hints": [],
+      "entrance_confidence": "not sampled"
+    },
+    {
+      "id": "R06",
+      "source": "Map Radars/Screenshot_17.png",
+      "sha256": "e9142ffc7c4db85d53160142525926ce6b6bc6dfba5b5114ae25ac5719089927",
+      "image_dimensions": [
+        535,
+        535
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "offset axial chain",
+      "observation": "Staggered chambers change width along a long axis; end territories structurally differ.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R06-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.5,
+              0.43
+            ],
+            [
+              0.69,
+              0.43
+            ],
+            [
+              0.69,
+              0.62
+            ],
+            [
+              0.5,
+              0.62
+            ]
+          ],
+          "pixel_bounds": [
+            267.5,
+            230.0,
+            369.1,
+            331.7
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R06-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.4,
+              0.22
+            ],
+            [
+              0.52,
+              0.22
+            ],
+            [
+              0.52,
+              0.29
+            ],
+            [
+              0.4,
+              0.29
+            ]
+          ],
+          "pixel_bounds": [
+            214.0,
+            117.7,
+            278.2,
+            155.1
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R06-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.41,
+              0.29
+            ],
+            [
+              0.52,
+              0.29
+            ],
+            [
+              0.52,
+              0.43
+            ],
+            [
+              0.41,
+              0.43
+            ]
+          ],
+          "pixel_bounds": [
+            219.3,
+            155.1,
+            278.2,
+            230.0
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.0,
+        "passage_to_chamber_short_width": 0.37
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R06-annotations.png",
+      "approximate_regions": {
+        "foreground": "R06-foreground-estimate.png",
+        "enclosed_voids": "R06-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "approach_transition": "See observed width change in P/W samples; exact connections not established.",
+      "site_subdivision": "Visible local compartments retained as spatial evidence only; site identity unverified.",
+      "entrance_hints": [],
+      "entrance_confidence": "not sampled"
+    },
+    {
+      "id": "R07",
+      "source": "Map Radars/Screenshot_347.png",
+      "sha256": "917e1a00abaf596a32922129f5e41a63f301c3ecf7fc48c1d75159b30d0c7fb0",
+      "image_dimensions": [
+        789,
+        640
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "diagonal cross court",
+      "observation": "Upper-right complex and bottom courts connected around a dominant central mass.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R07-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.68,
+              0.21
+            ],
+            [
+              0.88,
+              0.21
+            ],
+            [
+              0.88,
+              0.4
+            ],
+            [
+              0.68,
+              0.4
+            ]
+          ],
+          "pixel_bounds": [
+            536.5,
+            134.4,
+            694.3,
+            256.0
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R07-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.42,
+              0.28
+            ],
+            [
+              0.49,
+              0.28
+            ],
+            [
+              0.49,
+              0.36
+            ],
+            [
+              0.42,
+              0.36
+            ]
+          ],
+          "pixel_bounds": [
+            331.4,
+            179.2,
+            386.6,
+            230.4
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R07-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.26,
+              0.4
+            ],
+            [
+              0.47,
+              0.4
+            ],
+            [
+              0.47,
+              0.61
+            ],
+            [
+              0.26,
+              0.61
+            ]
+          ],
+          "pixel_bounds": [
+            205.1,
+            256.0,
+            370.8,
+            390.4
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.3,
+        "passage_to_chamber_short_width": 0.42
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R07-annotations.png",
+      "approximate_regions": {
+        "foreground": "R07-foreground-estimate.png",
+        "enclosed_voids": "R07-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "approach_transition": "See observed width change in P/W samples; exact connections not established.",
+      "site_subdivision": "Visible local compartments retained as spatial evidence only; site identity unverified.",
+      "entrance_hints": [],
+      "entrance_confidence": "not sampled"
+    },
+    {
+      "id": "R08",
+      "source": "Map Radars/Screenshot_364.png",
+      "sha256": "82af05f20118b73e0a009f6630458e1a451bcb6a8bc6a71236509e9a48abb71b",
+      "image_dimensions": [
+        752,
+        675
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "diagonal cross court",
+      "observation": "Near-duplicate of R07; count as same evidence family.",
+      "confidence": "medium",
+      "duplicate_of": "R07",
+      "samples": [
+        {
+          "id": "R08-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.68,
+              0.21
+            ],
+            [
+              0.88,
+              0.21
+            ],
+            [
+              0.88,
+              0.4
+            ],
+            [
+              0.68,
+              0.4
+            ]
+          ],
+          "pixel_bounds": [
+            511.4,
+            141.8,
+            661.8,
+            270.0
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R08-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.42,
+              0.28
+            ],
+            [
+              0.49,
+              0.28
+            ],
+            [
+              0.49,
+              0.36
+            ],
+            [
+              0.42,
+              0.36
+            ]
+          ],
+          "pixel_bounds": [
+            315.8,
+            189.0,
+            368.5,
+            243.0
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R08-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.26,
+              0.4
+            ],
+            [
+              0.47,
+              0.4
+            ],
+            [
+              0.47,
+              0.61
+            ],
+            [
+              0.26,
+              0.61
+            ]
+          ],
+          "pixel_bounds": [
+            195.5,
+            270.0,
+            353.4,
+            411.8
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.17,
+        "passage_to_chamber_short_width": 0.41
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R08-annotations.png",
+      "approximate_regions": {
+        "foreground": "R08-foreground-estimate.png",
+        "enclosed_voids": "R08-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "approach_transition": "See observed width change in P/W samples; exact connections not established.",
+      "site_subdivision": "Visible local compartments retained as spatial evidence only; site identity unverified.",
+      "entrance_hints": [],
+      "entrance_confidence": "not sampled"
+    },
+    {
+      "id": "R09",
+      "source": "Map Radars/Screenshot_378.png",
+      "sha256": "6489c0409b5950301b479aeb0a7a35b41fff49a2809d67e7d9ea938e0968284c",
+      "image_dimensions": [
+        548,
+        605
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "oblique serial territory",
+      "observation": "Coherent diagonal building axes; angled courts and narrower thresholds, not random corner cuts.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R09-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.27,
+              0.43
+            ],
+            [
+              0.53,
+              0.43
+            ],
+            [
+              0.53,
+              0.62
+            ],
+            [
+              0.27,
+              0.62
+            ]
+          ],
+          "pixel_bounds": [
+            148.0,
+            260.1,
+            290.4,
+            375.1
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R09-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.3,
+              0.27
+            ],
+            [
+              0.36,
+              0.27
+            ],
+            [
+              0.36,
+              0.37
+            ],
+            [
+              0.3,
+              0.37
+            ]
+          ],
+          "pixel_bounds": [
+            164.4,
+            163.4,
+            197.3,
+            223.8
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R09-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.45,
+              0.27
+            ],
+            [
+              0.57,
+              0.27
+            ],
+            [
+              0.57,
+              0.37
+            ],
+            [
+              0.45,
+              0.37
+            ]
+          ],
+          "pixel_bounds": [
+            246.6,
+            163.4,
+            312.4,
+            223.8
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.24,
+        "passage_to_chamber_short_width": 0.29
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R09-annotations.png",
+      "approximate_regions": {
+        "foreground": "R09-foreground-estimate.png",
+        "enclosed_voids": "R09-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "entrance_hints": [
+        [
+          0.3,
+          0.39
+        ],
+        [
+          0.43,
+          0.63
+        ]
+      ],
+      "approach_transition": "Narrow waist opens into an oblique broad court; bordering building fronts continue the same diagonal axis.",
+      "site_subdivision": "Central open patch and adjacent striped bands appear separate local sectors; objectives and vertical connections unknown.",
+      "surrounding_connection": "Upper serial chambers connect around attached dark masses to a broader central territory.",
+      "entrance_confidence": "low-to-medium: image-space gap hints, not certified doorways"
+    },
+    {
+      "id": "R10",
+      "source": "Map Radars/Screenshot_38.png",
+      "sha256": "c463b359570aa6c1abc9c7226a26478a6d9e4f7a9e9b06ed1442b0d9851b57ab",
+      "image_dimensions": [
+        424,
+        485
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "compact nested loops",
+      "observation": "Courts embedded in tight wraparound circulation; possible colored floor overlap.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R10-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.57,
+              0.13
+            ],
+            [
+              0.78,
+              0.13
+            ],
+            [
+              0.78,
+              0.27
+            ],
+            [
+              0.57,
+              0.27
+            ]
+          ],
+          "pixel_bounds": [
+            241.7,
+            63.1,
+            330.7,
+            131.0
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R10-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.25,
+              0.15
+            ],
+            [
+              0.32,
+              0.15
+            ],
+            [
+              0.32,
+              0.36
+            ],
+            [
+              0.25,
+              0.36
+            ]
+          ],
+          "pixel_bounds": [
+            106.0,
+            72.8,
+            135.7,
+            174.6
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R10-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.35,
+              0.35
+            ],
+            [
+              0.45,
+              0.35
+            ],
+            [
+              0.45,
+              0.47
+            ],
+            [
+              0.35,
+              0.47
+            ]
+          ],
+          "pixel_bounds": [
+            148.4,
+            169.8,
+            190.8,
+            227.9
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.31,
+        "passage_to_chamber_short_width": 0.44
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R10-annotations.png",
+      "approximate_regions": {
+        "foreground": "R10-foreground-estimate.png",
+        "enclosed_voids": "R10-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "approach_transition": "See observed width change in P/W samples; exact connections not established.",
+      "site_subdivision": "Visible local compartments retained as spatial evidence only; site identity unverified.",
+      "entrance_hints": [],
+      "entrance_confidence": "not sampled"
+    },
+    {
+      "id": "R11",
+      "source": "Map Radars/Screenshot_39.png",
+      "sha256": "9a01c6bd2798c25776ee4991052eb77f2b5a021583150980c258bd561ec249c2",
+      "image_dimensions": [
+        529,
+        542
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "broad stepped hub",
+      "observation": "Large central band and side courts; striped areas cannot establish vertical connections.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R11-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.42,
+              0.33
+            ],
+            [
+              0.66,
+              0.33
+            ],
+            [
+              0.66,
+              0.48
+            ],
+            [
+              0.42,
+              0.48
+            ]
+          ],
+          "pixel_bounds": [
+            222.2,
+            178.9,
+            349.1,
+            260.2
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R11-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.35,
+              0.2
+            ],
+            [
+              0.4,
+              0.2
+            ],
+            [
+              0.4,
+              0.32
+            ],
+            [
+              0.35,
+              0.32
+            ]
+          ],
+          "pixel_bounds": [
+            185.1,
+            108.4,
+            211.6,
+            173.4
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R11-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.41,
+              0.59
+            ],
+            [
+              0.6,
+              0.59
+            ],
+            [
+              0.6,
+              0.69
+            ],
+            [
+              0.41,
+              0.69
+            ]
+          ],
+          "pixel_bounds": [
+            216.9,
+            319.8,
+            317.4,
+            374.0
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.56,
+        "passage_to_chamber_short_width": 0.33
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R11-annotations.png",
+      "approximate_regions": {
+        "foreground": "R11-foreground-estimate.png",
+        "enclosed_voids": "R11-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "approach_transition": "See observed width change in P/W samples; exact connections not established.",
+      "site_subdivision": "Visible local compartments retained as spatial evidence only; site identity unverified.",
+      "entrance_hints": [],
+      "entrance_confidence": "not sampled"
+    },
+    {
+      "id": "R12",
+      "source": "Map Radars/Screenshot_443.png",
+      "sha256": "df6b5a58968ee77c708bb7e1b4a1ba55f181d61b0af45e1cc6b1328dd4ac0785",
+      "image_dimensions": [
+        1153,
+        729
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "asymmetric offset sites",
+      "observation": "Top and right marked areas occupy adjacent exterior sides; connected central court.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R12-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.44,
+              0.36
+            ],
+            [
+              0.52,
+              0.36
+            ],
+            [
+              0.52,
+              0.51
+            ],
+            [
+              0.44,
+              0.51
+            ]
+          ],
+          "pixel_bounds": [
+            507.3,
+            262.4,
+            599.6,
+            371.8
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R12-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.39,
+              0.22
+            ],
+            [
+              0.44,
+              0.22
+            ],
+            [
+              0.44,
+              0.43
+            ],
+            [
+              0.39,
+              0.43
+            ]
+          ],
+          "pixel_bounds": [
+            449.7,
+            160.4,
+            507.3,
+            313.5
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R12-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.46,
+              0.51
+            ],
+            [
+              0.54,
+              0.51
+            ],
+            [
+              0.54,
+              0.65
+            ],
+            [
+              0.46,
+              0.65
+            ]
+          ],
+          "pixel_bounds": [
+            530.4,
+            371.8,
+            622.6,
+            473.9
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.19,
+        "passage_to_chamber_short_width": 0.62
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R12-annotations.png",
+      "approximate_regions": {
+        "foreground": "R12-foreground-estimate.png",
+        "enclosed_voids": "R12-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "approach_transition": "See observed width change in P/W samples; exact connections not established.",
+      "site_subdivision": "Visible local compartments retained as spatial evidence only; site identity unverified.",
+      "entrance_hints": [],
+      "entrance_confidence": "not sampled"
+    },
+    {
+      "id": "R13",
+      "source": "Map Radars/Screenshot_49.png",
+      "sha256": "97ee2cc63a450b1fa7944f56dc4fb386523281e409f60975a044eea6690a16f3",
+      "image_dimensions": [
+        623,
+        631
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "nested offset enclosures",
+      "observation": "Multiple linked squares around voids; checkerboard background prevents simple foreground classification.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R13-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.72,
+              0.25
+            ],
+            [
+              0.91,
+              0.25
+            ],
+            [
+              0.91,
+              0.4
+            ],
+            [
+              0.72,
+              0.4
+            ]
+          ],
+          "pixel_bounds": [
+            448.6,
+            157.8,
+            566.9,
+            252.4
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R13-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.2,
+              0.49
+            ],
+            [
+              0.46,
+              0.49
+            ],
+            [
+              0.46,
+              0.55
+            ],
+            [
+              0.2,
+              0.55
+            ]
+          ],
+          "pixel_bounds": [
+            124.6,
+            309.2,
+            286.6,
+            347.1
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R13-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.57,
+              0.4
+            ],
+            [
+              0.65,
+              0.4
+            ],
+            [
+              0.65,
+              0.65
+            ],
+            [
+              0.57,
+              0.65
+            ]
+          ],
+          "pixel_bounds": [
+            355.1,
+            252.4,
+            404.9,
+            410.2
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.25,
+        "passage_to_chamber_short_width": 0.4
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R13-annotations.png",
+      "approximate_regions": {
+        "foreground": "R13-foreground-estimate.png",
+        "enclosed_voids": "R13-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "approach_transition": "See observed width change in P/W samples; exact connections not established.",
+      "site_subdivision": "Visible local compartments retained as spatial evidence only; site identity unverified.",
+      "entrance_hints": [],
+      "entrance_confidence": "not sampled"
+    },
+    {
+      "id": "R14",
+      "source": "Map Radars/Screenshot_594.png",
+      "sha256": "a931d9260330c6f35a089a839ac4996154d56cc2c9f1f04790677c305d5247d4",
+      "image_dimensions": [
+        538,
+        597
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "offset courtyards",
+      "observation": "Long narrow top court, subdivided lower-left court, right irregular court; angled threshold walls.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R14-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.23,
+              0.69
+            ],
+            [
+              0.41,
+              0.69
+            ],
+            [
+              0.41,
+              0.8
+            ],
+            [
+              0.23,
+              0.8
+            ]
+          ],
+          "pixel_bounds": [
+            123.7,
+            411.9,
+            220.6,
+            477.6
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R14-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.32,
+              0.22
+            ],
+            [
+              0.39,
+              0.22
+            ],
+            [
+              0.39,
+              0.34
+            ],
+            [
+              0.32,
+              0.34
+            ]
+          ],
+          "pixel_bounds": [
+            172.2,
+            131.3,
+            209.8,
+            203.0
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R14-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.51,
+              0.27
+            ],
+            [
+              0.58,
+              0.27
+            ],
+            [
+              0.58,
+              0.43
+            ],
+            [
+              0.51,
+              0.43
+            ]
+          ],
+          "pixel_bounds": [
+            274.38,
+            161.19,
+            312.03999999999996,
+            256.71
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.47,
+        "passage_to_chamber_short_width": 0.57
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R14-annotations.png",
+      "approximate_regions": {
+        "foreground": "R14-foreground-estimate.png",
+        "enclosed_voids": "R14-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "entrance_hints": [
+        [
+          0.36,
+          0.23
+        ],
+        [
+          0.3,
+          0.66
+        ],
+        [
+          0.57,
+          0.76
+        ]
+      ],
+      "approach_transition": "Top slender court reaches a narrow lower threshold; central route expands beside offset building footprints.",
+      "site_subdivision": "Lower-left marked court has an angled northern shoulder, lower broad patch and adjacent striped edge; right territory has a different polygonal outline.",
+      "surrounding_connection": "Central crossing spaces tie upper court, left lower court and right irregular court; apparent striped links remain uncertain.",
+      "entrance_confidence": "low-to-medium: image-space gap hints, not certified doorways"
+    },
+    {
+      "id": "R15",
+      "source": "Map Radars/Screenshot_69.png",
+      "sha256": "7b8d6f62dd53199df3dbc6b5e43bdb4398f53af4bde1df3dda2fa3e65dbe60f6",
+      "image_dimensions": [
+        651,
+        709
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "fan shaped oblique court",
+      "observation": "Large triangular court with several angled building fronts; boundary governs approaches.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R15-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.39,
+              0.41
+            ],
+            [
+              0.6,
+              0.41
+            ],
+            [
+              0.6,
+              0.59
+            ],
+            [
+              0.39,
+              0.59
+            ]
+          ],
+          "pixel_bounds": [
+            253.9,
+            290.7,
+            390.6,
+            418.3
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R15-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.33,
+              0.23
+            ],
+            [
+              0.42,
+              0.23
+            ],
+            [
+              0.42,
+              0.33
+            ],
+            [
+              0.33,
+              0.33
+            ]
+          ],
+          "pixel_bounds": [
+            214.8,
+            163.1,
+            273.4,
+            234.0
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R15-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.27,
+              0.45
+            ],
+            [
+              0.36,
+              0.45
+            ],
+            [
+              0.36,
+              0.57
+            ],
+            [
+              0.27,
+              0.57
+            ]
+          ],
+          "pixel_bounds": [
+            175.8,
+            319.1,
+            234.4,
+            404.1
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.07,
+        "passage_to_chamber_short_width": 0.46
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R15-annotations.png",
+      "approximate_regions": {
+        "foreground": "R15-foreground-estimate.png",
+        "enclosed_voids": "R15-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "approach_transition": "See observed width change in P/W samples; exact connections not established.",
+      "site_subdivision": "Visible local compartments retained as spatial evidence only; site identity unverified.",
+      "entrance_hints": [],
+      "entrance_confidence": "not sampled"
+    },
+    {
+      "id": "R16",
+      "source": "Map Radars/Screenshot_79.png",
+      "sha256": "f8c1db861d3a5fe3b5a1953d4c990715457a0e94ad852a07d829bee2c17aa041",
+      "image_dimensions": [
+        669,
+        768
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "dense asymmetric network",
+      "observation": "Continuous irregular halls and several broad end areas around offset voids.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R16-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.65,
+              0.64
+            ],
+            [
+              0.79,
+              0.64
+            ],
+            [
+              0.79,
+              0.77
+            ],
+            [
+              0.65,
+              0.77
+            ]
+          ],
+          "pixel_bounds": [
+            434.9,
+            491.5,
+            528.5,
+            591.4
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R16-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.42,
+              0.2
+            ],
+            [
+              0.47,
+              0.2
+            ],
+            [
+              0.47,
+              0.49
+            ],
+            [
+              0.42,
+              0.49
+            ]
+          ],
+          "pixel_bounds": [
+            281.0,
+            153.6,
+            314.4,
+            376.3
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R16-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.51,
+              0.53
+            ],
+            [
+              0.61,
+              0.53
+            ],
+            [
+              0.61,
+              0.62
+            ],
+            [
+              0.51,
+              0.62
+            ]
+          ],
+          "pixel_bounds": [
+            341.2,
+            407.0,
+            408.1,
+            476.2
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.07,
+        "passage_to_chamber_short_width": 0.36
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R16-annotations.png",
+      "approximate_regions": {
+        "foreground": "R16-foreground-estimate.png",
+        "enclosed_voids": "R16-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "approach_transition": "See observed width change in P/W samples; exact connections not established.",
+      "site_subdivision": "Visible local compartments retained as spatial evidence only; site identity unverified.",
+      "entrance_hints": [],
+      "entrance_confidence": "not sampled"
+    },
+    {
+      "id": "R17",
+      "source": "Map Radars/Screenshot_93.png",
+      "sha256": "3805a1b0dccdc84bd20f24146ff4d69dac71b7c7d5faf8788f93a651ca276e93",
+      "image_dimensions": [
+        939,
+        715
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "embedded diagonal complexes",
+      "observation": "Marked lower-left and upper-right regions; building footprints offset, central route changes width.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R17-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.61,
+              0.26
+            ],
+            [
+              0.74,
+              0.26
+            ],
+            [
+              0.74,
+              0.4
+            ],
+            [
+              0.61,
+              0.4
+            ]
+          ],
+          "pixel_bounds": [
+            572.8,
+            185.9,
+            694.9,
+            286.0
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R17-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.27,
+              0.16
+            ],
+            [
+              0.32,
+              0.16
+            ],
+            [
+              0.32,
+              0.34
+            ],
+            [
+              0.27,
+              0.34
+            ]
+          ],
+          "pixel_bounds": [
+            253.5,
+            114.4,
+            300.5,
+            243.1
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R17-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.4,
+              0.27
+            ],
+            [
+              0.44,
+              0.27
+            ],
+            [
+              0.44,
+              0.38
+            ],
+            [
+              0.4,
+              0.38
+            ]
+          ],
+          "pixel_bounds": [
+            375.6,
+            193.05,
+            413.16,
+            271.7
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.22,
+        "passage_to_chamber_short_width": 0.47
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R17-annotations.png",
+      "approximate_regions": {
+        "foreground": "R17-foreground-estimate.png",
+        "enclosed_voids": "R17-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "entrance_hints": [
+        [
+          0.28,
+          0.34
+        ],
+        [
+          0.62,
+          0.43
+        ],
+        [
+          0.4,
+          0.66
+        ]
+      ],
+      "approach_transition": "Orthogonal narrow passages enter offset chambers beside building corners, rather than at every room center.",
+      "site_subdivision": "Upper-right territory is broken by attached footprints and an inward dividing wall; lower-left region includes multiple widened pockets.",
+      "surrounding_connection": "Diagonal territory placement is embedded in circulation around multiple non-aligned solid islands.",
+      "entrance_confidence": "low-to-medium: image-space gap hints, not certified doorways"
+    },
+    {
+      "id": "R18",
+      "source": "Map Radars/Screenshot_99.png",
+      "sha256": "47ee0bb9a6d54dd8c17884859f97adec12b36a1a6c29595e74073eaba4ea2b40",
+      "image_dimensions": [
+        916,
+        662
+      ],
+      "scale_metadata": null,
+      "overall_arrangement": "interlocked court ring",
+      "observation": "Left and right marked courts surround offset central masses; broad transitions and angled shoulders.",
+      "confidence": "medium",
+      "duplicate_of": null,
+      "samples": [
+        {
+          "id": "R18-P",
+          "kind": "approximate chamber/courtyard sample",
+          "normalized_polygon": [
+            [
+              0.47,
+              0.44
+            ],
+            [
+              0.63,
+              0.44
+            ],
+            [
+              0.63,
+              0.57
+            ],
+            [
+              0.47,
+              0.57
+            ]
+          ],
+          "pixel_bounds": [
+            430.5,
+            291.3,
+            577.1,
+            377.3
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R18-W",
+          "kind": "approximate passage sample",
+          "normalized_polygon": [
+            [
+              0.18,
+              0.51
+            ],
+            [
+              0.24,
+              0.51
+            ],
+            [
+              0.24,
+              0.65
+            ],
+            [
+              0.18,
+              0.65
+            ]
+          ],
+          "pixel_bounds": [
+            164.9,
+            337.6,
+            219.8,
+            430.3
+          ],
+          "confidence": "medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        },
+        {
+          "id": "R18-M",
+          "kind": "likely inaccessible footprint sample",
+          "normalized_polygon": [
+            [
+              0.61,
+              0.27
+            ],
+            [
+              0.72,
+              0.27
+            ],
+            [
+              0.72,
+              0.4
+            ],
+            [
+              0.61,
+              0.4
+            ]
+          ],
+          "pixel_bounds": [
+            558.8,
+            178.7,
+            659.5,
+            264.8
+          ],
+          "confidence": "low-to-medium",
+          "uncertainty": "Coarse review region, not exact floor segmentation; white shapes and color layers do not certify cover or collision."
+        }
+      ],
+      "ratios": {
+        "chamber_aspect": 1.7,
+        "passage_to_chamber_short_width": 0.64
+      },
+      "ratio_scope": "Approximate sample boxes in image pixels; different local regions, not exact measured openings.",
+      "entrances": "Visible breaks/threshold strokes are hints only; per-floor topology not inferred.",
+      "uncertainty": [
+        "No HU scale or reliable heights",
+        "Striped/colored regions may show overlapping floors",
+        "Exterior black is not necessarily a wall; enclosed voids are tentative building masses",
+        "Green/red rectangles are unnamed marked territories, not automatically classified objectives"
+      ],
+      "overlay": "R18-annotations.png",
+      "approximate_regions": {
+        "foreground": "R18-foreground-estimate.png",
+        "enclosed_voids": "R18-enclosed-void-estimate.png",
+        "confidence": "low",
+        "method": "Brightness/chroma silhouette plus large enclosed dark holes; R13 disabled for checkerboard; masks are review hypotheses, not walkable navigation."
+      },
+      "entrance_hints": [
+        [
+          0.22,
+          0.51
+        ],
+        [
+          0.76,
+          0.44
+        ],
+        [
+          0.62,
+          0.63
+        ]
+      ],
+      "approach_transition": "Narrow edge passages widen into linked courts around substantial offset voids.",
+      "site_subdivision": "Central court has offset large masses and connecting shoulders; side marked spaces have different local entrances.",
+      "surrounding_connection": "Continuous inner and outer circulation is visible; colors/striping do not prove every crossing connects.",
+      "entrance_confidence": "low-to-medium: image-space gap hints, not certified doorways"
+    }
+  ],
+  "motifs": [
+    {
+      "id": "offset-frontage",
+      "sources": [
+        "R14",
+        "R17",
+        "R18"
+      ],
+      "rule": "Elongated holding rooms attach to the used frontages; broad court and narrow passage occupy different proportions.",
+      "confidence": "medium",
+      "uncertainty": "Region boundaries approximate; original tactical purposes unverified."
+    },
+    {
+      "id": "shouldered-court",
+      "sources": [
+        "R05",
+        "R09",
+        "R14",
+        "R15"
+      ],
+      "rule": "An unused building face projects a sloped shoulder into the encounter court; entrance sectors stay clear.",
+      "confidence": "medium",
+      "uncertainty": "Wall heights unknown; generator assigns its own full-height boundary convention."
+    },
+    {
+      "id": "continuous-expansion",
+      "sources": [
+        "R02",
+        "R14",
+        "R18"
+      ],
+      "rule": "Circulation expands on the approach into a receiving space rather than identical necks on centered squares.",
+      "confidence": "medium",
+      "uncertainty": "Door widths are not calibrated."
+    },
+    {
+      "id": "folded-front",
+      "sources": [
+        "R12",
+        "R17"
+      ],
+      "rule": "Two objective complexes may occupy adjacent or diagonal exterior sides; rear circulation wraps between their receiving sides.",
+      "confidence": "low-to-medium",
+      "uncertainty": "Marked territories not confirmed bombsites; reuse spatial organization only."
+    },
+    {
+      "id": "staggered-depth",
+      "sources": [
+        "R04",
+        "R06",
+        "R09",
+        "R14"
+      ],
+      "rule": "Stagger site/territory depths instead of always aligning both courts on one cross axis.",
+      "confidence": "medium",
+      "uncertainty": "Connections at apparent elevation overlaps excluded."
+    }
+  ],
+  "review_corrections": [
+    "R14/R17 likely-mass sample boxes moved away from colored court surfaces after inspecting full-resolution overlays. Masks remain tentative."
+  ]
+}

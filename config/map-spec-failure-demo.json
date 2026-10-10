@@ -1,0 +1,7 @@
+{
+  "version": "map-design-spec-v1",
+  "gameplay": {"mid": "absent", "secondary_access": "local", "defender_rotation": "rear", "site_commitment": "immediate"},
+  "architecture": {"site_setting": "courtyard", "site_separation": "separated"},
+  "hard_constraints": {"max_extent_HU": 4096, "minimum_door_width_HU": 128, "maximum_main_route_HU": 256},
+  "seed": 271828
+}

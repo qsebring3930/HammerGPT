@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "scope": "route purpose only; no trajectory, timing or clearance certification",
+  "reviews": [
+    {
+      "map": "train",
+      "source_nav_sha256": "f23cf3786462448741e7e2cb254fbdac5843445f42b00ffae6fab7aceae3349a",
+      "ordered_nav_path_sha256": "4f9bc82d012c1054eb1ef59817b974f66fc8fd7adfb0fb2fad9cb03ae9a4231a",
+      "display_route_id": "T-B-3",
+      "tactical_role": "conditional_later_flank",
+      "opening_attack_target": false,
+      "condition": "Used if A is too dangerous from Ivy",
+      "evidence": "User correction: Wait, no it is a later flank, its only used if A is too dangerous from Ivy",
+      "reviewed_route_artifact": "C:\\Users\\qsebr\\OneDrive\\Desktop\\hammergpt\\HammerGPT\\output\\gameplay-route-targets-v4\\train.json",
+      "reviewed_route_artifact_sha256": "0e5231fe2671a31eeb9df8c76abfb58114556eb23b98a1f0fe7b6942c9048bdc"
+    }
+  ]
+}

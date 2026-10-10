@@ -1,0 +1,73 @@
+{
+  "geometry_paused": true,
+  "legacy_spatial_sampler_disabled": true,
+  "reason": "User rejected the current five radars and requested semantic validation before any new floorplan or geometry edit.",
+  "rejected_set": "output/preference-round-002",
+  "resume_condition": "Stage 3 must demonstrate coherent, strategically preserved and spatially distinct compositions before detailed floor generation. The current sixteen-candidate experiment failed the composition milestone.",
+  "stage_3_experiment_status": "free_mid_architecture_candidate_rejected_physical_review",
+  "stage_4_inspection_proposal": "output/p04-playable-composition-001/graybox-proposal.md",
+  "stage_4_inspection_approved": false,
+  "stage_3_batch_authorized": false,
+  "retired_composition_sampler": "spatial_composition.sample_embedding",
+  "active_stage_3_representation": "playable-space-mass-openings-v1",
+  "stage_3_review": "output\\free-mid-1004821-r17\\review.md",
+  "stage_4_authorized": false,
+  "stage_4_inspection_status": "deferred_by_user",
+  "stage_3_single_candidate_authorization": {
+    "candidate": "002",
+    "consumed": true,
+    "scope": "One additional composition only; no batch or engine geometry."
+  },
+  "stage_3_comparison_authorization": {
+    "candidates": [
+      "003",
+      "004"
+    ],
+    "consumed": true,
+    "scope": "Exactly two further authored comparisons; no engine geometry."
+  },
+  "stage_3_procedural_experiment": {
+    "seeds": [
+      104,
+      208,
+      312,
+      416
+    ],
+    "revision": "r3",
+    "batch_consumed": true,
+    "engine_geometry_authorized": false
+  },
+  "stage_3_frozen_search": {
+    "attempts": 40,
+    "seed_range": [
+      10001,
+      10040
+    ],
+    "physical_passes": 9,
+    "distinct_selections": [
+      10007
+    ],
+    "consumed": true
+  },
+  "p04_only_seed_searches_stopped": true,
+  "stage_3_specification_experiment": {
+    "output": "output/specification-to-image-003",
+    "seed": 271828,
+    "demonstrations": [
+      "compact",
+      "mid",
+      "interior"
+    ],
+    "completed": true
+  },
+  "stage_3_architecture_experiment": {
+    "base_seeds": [
+      884201,
+      884302,
+      884403
+    ],
+    "final_revision": "after-r5",
+    "completed": true
+  },
+  "stage_3_previous_review": "output/distributed-mid-001/review.md"
+}

@@ -1,0 +1,35 @@
+{
+  "rule_version": "p04-architecture-grammar-v1",
+  "strategy": "output/strategic-diversity-001/P04/plan.json",
+  "strategy_sha256": "34a2e1c60b0ba7d3aad8fa129aa5fffaa09a35439d24feee43af19b0549fd0d0",
+  "world": [220, 200],
+  "deployment_size": [18, 16],
+  "road_width": 6,
+  "road_opening_width": 4,
+  "routing_grid_step": 2,
+  "routing_margin": 1,
+  "court_width_choices": [26, 30, 34],
+  "court_depth_choices": [22, 26],
+  "staging_depth_choices": [12, 16],
+  "investment_depth_choices": [10, 14],
+  "receiving_depth_choices": [10, 12],
+  "side_gallery_width_choices": [8, 10],
+  "arrangement_axes": ["northbound", "eastbound"],
+  "B_facing_relationships": ["parallel", "inward", "outward"],
+  "routing_orders": ["attacker_first", "defender_first", "site_interleaved"],
+  "scale": {
+    "source_units_per_plan_unit": 32,
+    "player_width_source_units": 32,
+    "standing_height_source_units": 72,
+    "standing_eye_source_units": 64,
+    "crouched_eye_source_units": 46,
+    "full_height_boundary_source_units": 160,
+    "wall_thickness_source_units": 25.6,
+    "status": "Unchanged provisional authored assumptions; not calibrated CS2 runtime dimensions."
+  },
+  "acceptance": {
+    "requires_physical_and_structural_checks": true,
+    "timing_is_unresolved": true,
+    "weak_rotation_advantage_HU": 512
+  }
+}

@@ -1,0 +1,65 @@
+"""Verified local NAV observations plus explicitly authored adaptations."""
+RULES = {'version': 'nav-radar-context-transitions-v1',
+ 'evidence': {'dust2': {'reference': 'output\\nav-radar-integration-001\\references-r4\\dust2.json',
+                        'sha256': '9cdcd8aed493f4af1fb45cf1626b089f011bacb630969cbe88a4b00c3dca7f40',
+                        'nav_sha256': '141901dad837f2cb44c2c158392a6e739073b0a8ac672f3ad48bbf4b30c4a8c0',
+                        'patterns': [{'id': 'dust2-space-0',
+                                      'direction_changes_degrees': [78.12957551235593,
+                                                                    94.968164378274,
+                                                                    49.51889363647037,
+                                                                    78.40842328858798,
+                                                                    25.830799406779587],
+                                      'width_transition_ratio': 21.489652727946662,
+                                      'support_valid': True,
+                                      'confidence': 'medium for observed supported planar route; '
+                                                    'no calibrated timing, wall or doorway '
+                                                    'interpretation'}]},
+              'cache': {'reference': 'output\\nav-radar-integration-001\\references-r4\\cache.json',
+                        'sha256': '2f2da5f8cd14a8d8e76b4265ed4432f2a80087808cc609db6fa583afb07f594b',
+                        'nav_sha256': '0379e1e61ccc1749f1a06233dc100e468adee7f20237ee3426ac9f8ab7d2fb09',
+                        'patterns': [{'id': 'cache-space-4',
+                                      'direction_changes_degrees': [96.07640564442589],
+                                      'width_transition_ratio': 1.7711845040955454,
+                                      'support_valid': True,
+                                      'confidence': 'medium for observed supported planar route; '
+                                                    'no calibrated timing, wall or doorway '
+                                                    'interpretation'},
+                                     {'id': 'cache-space-1',
+                                      'direction_changes_degrees': [],
+                                      'width_transition_ratio': 3.831993548395117,
+                                      'support_valid': True,
+                                      'confidence': 'medium for observed supported planar route; '
+                                                    'no calibrated timing, wall or doorway '
+                                                    'interpretation'}]},
+              'train': {'reference': 'output\\nav-radar-integration-001\\references-r4\\train.json',
+                        'sha256': '355829a806caa9f7b37248048276b8e2fd4d27e9bc8d7ebfab0fea14c4cb68fd',
+                        'nav_sha256': 'f23cf3786462448741e7e2cb254fbdac5843445f42b00ffae6fab7aceae3349a',
+                        'patterns': [{'id': 'train-space-1',
+                                      'direction_changes_degrees': [87.78204049242284,
+                                                                    52.405172344573984,
+                                                                    33.46525340257446,
+                                                                    50.703569724912796,
+                                                                    80.47204632644939],
+                                      'width_transition_ratio': 13.399899399120642,
+                                      'support_valid': True,
+                                      'confidence': 'medium for observed supported planar route; '
+                                                    'no calibrated timing, wall or doorway '
+                                                    'interpretation'}]}},
+ 'observed': ['Cache straight support through narrow territory does not require a tapered mouth',
+              'Cache right-angle and Dust2/Train obstacle-bounded support paths demonstrate '
+              'building-defined turns',
+              'NAV support span changes alongside retained holes; no engine-width or timing '
+              'calibration'],
+ 'authored_choices': {'long_run_aspect_trigger': 4,
+                      'one_frontage_turn_per_run': True,
+                      'ordinary_portal_policy': 'static zero-flag reciprocal geometry matching',
+                      'native_height_aggregation_span': 16,
+                      'context_types': ['flush',
+                                        'offset-threshold',
+                                        'continuous-court',
+                                        'building-turn']},
+ 'limits': ['No NAV area copied as a room',
+            'No NAV boundary or area edge used as a wall',
+            'No exact native-unit to HU scale inference',
+            'No verified tactical-alternate or elevation motif promoted',
+            'Radar and NAV datasets are not registered to each other']}
